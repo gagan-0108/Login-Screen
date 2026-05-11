@@ -1,0 +1,32 @@
+export const Colors = {
+  light: {
+    background: "#FAFAFA",
+    textPrimary: "#1E1E1E",
+    textSecondary: "#888",
+    inputBackground: "#FFF",
+    inputBorder: "#E8E8E8",
+    inputBorderFocus: "#8CC63F",
+    inputText: "#333",
+    inputIcon: "#999",
+    primary: "#8CC63F",
+    cardBackground: "#FFF",
+    cardBorder: "#E8E8E8",
+    iconContainer: "#F5F5F5",
+    iconContainerSelected: "#F0F8E6",
+  },
+  dark: {
+    background: "#121212",
+    textPrimary: "#FFFFFF",
+    textSecondary: "#A0A0A0",
+    inputBackground: "#1E1E1E",
+    inputBorder: "#333333",
+    inputBorderFocus: "#8CC63F",
+    inputText: "#FFF",
+    inputIcon: "#777",
+    primary: "#8CC63F",
+    cardBackground: "#1E1E1E",
+    cardBorder: "#333333",
+    iconContainer: "#2A2A2A",
+    iconContainerSelected: "#2D3A1F", 
+  }
+};
