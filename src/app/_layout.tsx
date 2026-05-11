@@ -9,6 +9,8 @@ import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
+import { StatusBar } from "expo-status-bar";
+
 export default function RootLayout() {
     const [loaded] = useFonts({
         "Poppins-Regular": Poppins_400Regular,
@@ -24,6 +26,7 @@ export default function RootLayout() {
 
     return (
         <SafeAreaProvider>
+            <StatusBar style="dark" />
             <Stack screenOptions={{ headerShown: false }} />
         </SafeAreaProvider>
     );
