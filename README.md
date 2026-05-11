@@ -96,6 +96,4 @@ Want to run this project locally on your machine? Follow these steps:
 
 ## 5. Deployed App Link
 
-*(Coming soon! EAS Build in progress...)*
-
-[Link to the live application will go here]
+[https://expo.dev/accounts/gagan_0108/projects/my-app/builds/f4d33385-3668-4ec7-8055-3791f3425686]
